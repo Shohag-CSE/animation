@@ -1,0 +1,40 @@
+
+
+.box{
+    background:#ff0000;
+    width:300px;
+    height:300px;
+    animation:vai 3s infinite;
+    position:absolute;
+    
+
+}
+@keyframes vai {
+    0% {
+        top: 0;
+        left: 0;
+        transform: rotate(360deg);
+    }
+
+    25% {
+        top: 100px;
+        left: 0;
+        transform: scale(1.5)rotate skewX() (40deg);
+        background: green;
+    }
+
+    50% {
+        top: 50px;
+        left: 500px
+    }
+
+    75% {
+        top: 220px;
+        left: 800px;
+    }
+
+    100% {
+        top: 500px;
+        left: 300px;
+    }
+}
